@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Manipulação de  DOM</title>
+    
+</head>
+<body>
+    <h1>Manipulando o DOM</h1>
+    <p  name="pp"> Estou aprendendo a manipular o DOM utilizando JS</p>
+    <div id="div-1"> 
+        <p>Java Script é incrível</p>
+    </div>
+    <script>
+        //var x = window.document.getElementsByTagName('h1')[0]
+        //x.style.color = 'red'
+        //y = window.document.getElementsByName('pp')[0]
+        //y.style.backgroundColor = 'blue'
+        //window.alert(y.innerText)
+        //var z = window.document.querySelector('div#div-1')
+        //z.style.textAlign = 'left'
+        window.document.write('Escrevendo qualquer coisa ')
+        var batata = window.document.getElementsByTagName('h1')[0]
+        batata.innerHTML += ' com a escola DNC'
+
+    </script>
+</body>
+</html>

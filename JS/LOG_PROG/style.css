@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(164, 236, 194);
+}
+
+body h1{
+    background-color: black;
+    color: white;
+}
+
+body h2{
+    background-color: lawngreen;
+    font-style: oblique;
+}
+
+body li{
+    background-color: yellow;
+
+}
+
+body p{
+    background-color: yellow;
+    margin-left: 30px;
+}
+
+#div1 p {
+    background-color: black;
+    color: white;
+}

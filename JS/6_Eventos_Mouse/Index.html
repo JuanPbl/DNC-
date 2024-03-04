@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div onmouseenter="pintaraqua()" id="d1">
+        Conteúdo
+    </div>
+
+    <button onclick="pintarvermelho()">vermelho</button>
+
+    <script>
+        var d1 = window.document.getElementById('d1')
+        d1.addEventListener('mouseout', pintarvermelho)
+
+        function pintarvermelho(){
+            d1.style.backgroundColor = 'red'
+        }
+
+        function pintaraqua(){
+            d1.style.backgroundColor = 'aqua'
+        }
+    </script>
+</body>
+</html>
